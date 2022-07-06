@@ -13,6 +13,14 @@
       rel="stylesheet"
     />
   </head>
+
+  <!--
+"Cześć kilka rzeczy i mamy to: W body brakuje określenia fontu i line-height. 
+Staraj się nie stylować po tagach tylko po klasach. 
+Nie używaj font-family podczas stylowania wystarczy że jest zdefiniowane w body reszta elementów po tym dziedziczy, 
+Buttony na portfolio pogrupuj za pomocą ul oraz li, usuń text-decoration z buttonów na figmie tego nie ma/
+ Poza tymi rzeczami wszystko śmiga. Dobra robota :)"-->
+
   <body>
     <header>
       <div class="upper-line">
@@ -24,13 +32,13 @@
         <!-- Nawigacja do innych stron -->
         <nav class="nav-links">
           <ul class="nav-class">
-            <li><a href="agencja">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="kontakt">Kontakt</a></li>
+            <li><a href="agencja" class="agency">Agencja</a></li>
+            <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
+            <li><a href="kontakt" class="contact">Kontakt</a></li>
           </ul>
         </nav>
 
-        <!-- Mail i telefon-->
+        <!-- Mail i telefon -->
         <address class="address-up">
           <a href="mailto:info@devstudio.com" class="address-up-mail"
             >info@devstudio.com</a
