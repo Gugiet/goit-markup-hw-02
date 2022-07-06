@@ -9,10 +9,20 @@
   --button-color: #2196f3;
   --selectors-background-colour: #f5f4fa;
 }
+
+body {
+  font-family: Roboto;
+  line-height: normal;
+  box-sizing: border-box;
+  display: block;
+}
+
 /* style nagłówka */
 .upper-line {
   width: 1600px;
+  height: 80px;
   background-color: var(--first-background-color);
+  display: inline;
 }
 .logo-up {
   font-family: Raleway;
@@ -20,6 +30,10 @@
   font-size: 26px;
   text-decoration: none;
   text-align: left;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 }
 .logo-up :hover {
   font-family: Raleway;
@@ -40,13 +54,15 @@
 }
 
 .nav-links ul {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   font-style: normal;
   line-height: 16px;
   word-spacing: 46px;
   text-align: center;
+  display: inline;
+  margin-top: 32px;
+  margin-left: 453px;
 }
 
 .nav-class li {
@@ -68,18 +84,25 @@
   text-decoration: underline;
 }
 
-[href*="agencja"] {
+.agency {
   color: #2196f3;
 }
-[href*="portfolio.html"] {
+.agency:hover {
+  text-decoration: none;
+}
+.portfolio {
   color: #000;
 }
-[href*="kontakt"] {
+.portfolio:hover {
+  text-decoration: none;
+}
+.contact {
   color: #000;
 }
-
+.contact:hover {
+  text-decoration: none;
+}
 .address-up {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   font-style: normal;
@@ -87,7 +110,6 @@
 }
 
 .address-up :hover {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   text-decoration: underline;
@@ -112,7 +134,6 @@
   width: 1600px;
 }
 h1 {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44;
   line-height: 60px;
@@ -122,7 +143,6 @@ h1 {
 }
 
 .selector-main {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -140,7 +160,6 @@ h1 {
 
 .selector-main :hover,
 .selector-main :focus {
-  text-decoration: underline;
   color: var(--third-text-color);
 }
 
@@ -150,7 +169,6 @@ h1 {
 }
 
 .ipsum-main {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   color: var(--first-text-color);
@@ -160,7 +178,6 @@ h1 {
 }
 
 .ipsum-secondarry {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14;
   font-style: normal;
@@ -176,7 +193,6 @@ h1 {
 }
 .photos h2 {
   text-align: center;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
 }
@@ -192,7 +208,6 @@ h1 {
 /*Zespół*/
 
 .our-team {
-  font-family: Roboto;
   background-color: var(--first-background-color);
   width: 1600px;
   display: inline;
@@ -213,13 +228,11 @@ h1 {
 }
 
 .John-Doe {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
 }
 .member-text {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -258,7 +271,6 @@ h1 {
 }
 
 .adress-down-first {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -266,7 +278,6 @@ h1 {
 }
 
 .adress-down-second a {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -275,7 +286,6 @@ h1 {
 }
 
 .adress-down-second a:hover {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -288,7 +298,6 @@ h1 {
 .selectors {
   background-color: var(--first-background-color);
   display: inline;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -307,7 +316,6 @@ h1 {
 .selector-three:hover,
 .selector-four:hover,
 .selector-five:hover {
-  text-decoration: underline;
   text-align: center;
   background-color: var(--button-color);
   border-color: var(--button-color);
@@ -320,7 +328,6 @@ h1 {
 .selector-three :focus,
 .selector-four :focus,
 .selector-five :focus {
-  text-decoration: underline;
   text-align: center;
   background-color: var(--button-color);
   border-color: var(--button-color);
@@ -368,13 +375,11 @@ h1 {
   text-align: center;
 }
 .prod-title {
-  font-family: Roboto;
   font-size: 18;
   font-weight: 700;
   color: var(--first-text-color);
 }
 .prod-description {
-  font-family: Roboto;
   font-size: 16;
   font-weight: 400;
 }
