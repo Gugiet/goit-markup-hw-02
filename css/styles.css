@@ -15,6 +15,7 @@ body {
   line-height: normal;
   box-sizing: border-box;
   display: block;
+  color: var(--second-text-color);
 }
 
 /* style nagłówka */
@@ -122,7 +123,7 @@ body {
 }
 
 .address-up-tel {
-  color: #757575;
+  color: var(--second-text-color);
   text-decoration: none;
 }
 
@@ -183,7 +184,6 @@ h1 {
   font-style: normal;
   text-decoration: none;
   text-align: left;
-  color: var(--second-text-color);
 }
 
 /* Foto */
@@ -227,16 +227,16 @@ h1 {
   text-align: center;
 }
 
-.John-Doe {
+.john-doe {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
+  color: var(--first-text-color);
 }
 .member-text {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
-  color: #757575;
 }
 /*Stopka*/
 
