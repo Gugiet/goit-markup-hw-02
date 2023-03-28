@@ -11,11 +11,7 @@
 }
 
 body {
-  font-family: Roboto;
-  line-height: normal;
-  box-sizing: border-box;
-  width: 1600px;
-  display: block;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--second-text-color);
 }
 
@@ -76,8 +72,7 @@ body {
 .nav-links ul {
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
-  line-height: 16px;
+  line-height: 1.17;
   word-spacing: 46px;
   display: inline;
   margin-left: 53px;
@@ -101,11 +96,12 @@ body {
 
 .nav-list a:hover {
   display: inline;
-  text-decoration: underline;
+  text-decoration: none;
+  color: var(--fourth-text-color);
 }
 
 .agency {
-  color: #2196f3;
+  color: #000;
 }
 .agency:hover {
   text-decoration: none;
@@ -122,6 +118,9 @@ body {
 .contact:hover {
   text-decoration: none;
 }
+.active {
+  color: #2196f3;
+}
 
 /* Contact details */
 
@@ -137,7 +136,7 @@ body {
 .contact-details :hover {
   font-weight: 500;
   font-size: 14px;
-  text-decoration: underline;
+  text-decoration: none;
   text-align: right;
 }
 
@@ -161,30 +160,27 @@ body {
 .button-background {
   background-color: var(--second-background-color);
   text-align: center;
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px;
+  height: 600px; */
   margin: 0;
 }
 
 .button-description {
   font-weight: 900;
   font-size: 44;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
   text-align: center;
-  width: 696px;
-  height: 120px;
   padding: 200px 452px 30px 452px;
   margin: 0;
 }
 
 .order-button {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   background-color: var(--button-color);
   border-color: var(--button-color);
@@ -211,9 +207,7 @@ body {
 }
 
 .ipsum-secondarry {
-  font-weight: 400;
   font-size: 14;
-  font-style: normal;
   text-decoration: none;
   text-align: left;
 }
@@ -228,6 +222,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  color: var(--first-text-color);
 }
 
 .photos ul {
@@ -242,7 +237,6 @@ body {
 
 .our-team {
   background-color: var(--first-background-color);
-  width: 1600px;
   display: inline;
 }
 
@@ -256,7 +250,6 @@ body {
 .members li {
   list-style: none;
   font-size: 16px;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -268,7 +261,6 @@ body {
 }
 .member-text {
   font-size: 16px;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -276,10 +268,14 @@ body {
 
 /* Footer - Strat */
 
+/* .footer {
+  display: block;
+} */
+
 .lower-line {
   background-color: var(--second-background-color);
+  display: inline;
   position: absolute;
-  width: 1600px;
 }
 
 .logo-down {
@@ -292,7 +288,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .logo-down-first {
   color: var(--fourth-text-color);
@@ -308,14 +304,12 @@ body {
 
 .adress-down-first {
   font-size: 14px;
-  font-weight: 400;
   font-style: normal;
   color: var(--third-text-color);
 }
 
 .footer-conntact a {
   font-size: 14px;
-  font-weight: 400;
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -323,7 +317,6 @@ body {
 
 .footer-conntact a:hover {
   font-size: 14px;
-  font-weight: 400;
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -336,10 +329,13 @@ body {
 .selectors {
   background-color: var(--first-background-color);
   display: inline;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
+  list-style: none;
+}
+.selectors li {
+  display: inline;
 }
 .selector-one {
   color: var(--first-text-color);
@@ -359,6 +355,8 @@ body {
   border-color: var(--button-color);
   border-radius: 4px;
   color: var(--third-text-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .selector-one :focus,
@@ -371,6 +369,8 @@ body {
   border-color: var(--button-color);
   border-radius: 4px;
   color: var(--third-text-color);
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.12), 2px 0px 1px rgba(0, 0, 0, 0.08),
+    1px 0px 3px rgba(0, 0, 0, 0.1);
 }
 
 .selector-two {
@@ -414,6 +414,9 @@ body {
 }
 
 /* products */
+.products ul {
+  list-style: none;
+}
 
 .prod-title {
   font-size: 18;
@@ -422,5 +425,4 @@ body {
 }
 .prod-description {
   font-size: 16;
-  font-weight: 400;
 }
