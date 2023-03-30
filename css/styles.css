@@ -38,26 +38,16 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  text-decoration: none;
-}
-
-.logo-up :hover {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
+  letter-spacing: 0.3px;
   text-decoration: none;
 }
 
 .web {
   color: var(--fourth-text-color);
-  font-weight: 700;
-  font-size: 26px;
 }
 
 .studio-up {
   color: var(--fifth-text-color);
-  font-weight: 700;
-  font-size: 26px;
 }
 
 /* Navigation Links */
@@ -73,6 +63,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 0.3px;
   word-spacing: 46px;
   display: inline;
   margin-left: 53px;
@@ -127,6 +118,7 @@ body {
 .contact-details {
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.3px;
   font-style: normal;
   text-align: right;
   display: inline;
@@ -167,13 +159,12 @@ body {
 
 .button-description {
   font-weight: 900;
-  font-size: 44;
+  font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.6px;
   text-transform: uppercase;
   color: var(--third-text-color);
   text-align: center;
-  padding: 200px 452px 30px 452px;
   margin: 0;
 }
 
@@ -181,7 +172,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.6px;
   background-color: var(--button-color);
   border-color: var(--button-color);
   border-radius: 4px;
@@ -200,6 +191,8 @@ body {
 .ipsum-main {
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.3px;
   color: var(--first-text-color);
   display: inline;
   list-style: none;
@@ -207,7 +200,9 @@ body {
 }
 
 .ipsum-secondarry {
-  font-size: 14;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3px;
   text-decoration: none;
   text-align: left;
 }
@@ -222,6 +217,8 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.3px;
   color: var(--first-text-color);
 }
 
@@ -244,6 +241,8 @@ body {
   color: var(--first-text-color);
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.3px;
   text-align: center;
 }
 
@@ -256,21 +255,21 @@ body {
 .john-doe {
   font-size: 16px;
   font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.3px;
   text-align: center;
   color: var(--first-text-color);
 }
 .member-text {
   font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.3px;
   text-align: center;
 }
 
 /* Main - End */
 
 /* Footer - Strat */
-
-/* .footer {
-  display: block;
-} */
 
 .lower-line {
   background-color: var(--second-background-color);
@@ -282,45 +281,34 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.3px;
   text-decoration: none;
 }
-.logo-down:hover {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-}
+
 .logo-down-first {
   color: var(--fourth-text-color);
-  font-weight: 700;
-  font-size: 26px;
 }
 
 .logo-down-second {
   color: var(--third-text-color);
-  font-weight: 700;
-  font-size: 26px;
 }
 
 .adress-down-first {
   font-size: 14px;
-  font-style: normal;
+  line-height: 1.71;
   color: var(--third-text-color);
 }
 
 .footer-conntact a {
   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3px;
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-conntact a:hover {
-  font-size: 14px;
-  font-style: normal;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-}
 /* Footer - End */
 
 /*Styls for <main> Portfolio*/
@@ -331,6 +319,7 @@ body {
   display: inline;
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.3px;
   line-height: 1.625;
   list-style: none;
 }
@@ -346,68 +335,15 @@ body {
   height: 38px;
 }
 .selector-one:hover,
-.selector-two:hover,
-.selector-three:hover,
-.selector-four:hover,
-.selector-five:hover {
+:focus {
   text-align: center;
   background-color: var(--button-color);
-  border-color: var(--button-color);
   border-radius: 4px;
   color: var(--third-text-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.selector-one :focus,
-.selector-two :focus,
-.selector-three :focus,
-.selector-four :focus,
-.selector-five :focus {
-  text-align: center;
-  background-color: var(--button-color);
-  border-color: var(--button-color);
-  border-radius: 4px;
-  color: var(--third-text-color);
-  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.12), 2px 0px 1px rgba(0, 0, 0, 0.08),
-    1px 0px 3px rgba(0, 0, 0, 0.1);
-}
-
-.selector-two {
-  color: var(--first-text-color);
-  background-color: var(--selectors-background-colour);
-  border: none;
-  cursor: pointer;
-  width: 93px;
-  height: 38px;
-}
-
-.selector-three {
-  color: var(--first-text-color);
-  background-color: var(--selectors-background-colour);
-  border: none;
-  cursor: pointer;
-  width: 93px;
-  height: 38px;
-}
-
-.selector-four {
-  color: var(--first-text-color);
-  background-color: var(--selectors-background-colour);
-  border: none;
-  cursor: pointer;
-  width: 93px;
-  height: 38px;
-}
-
-.selector-five {
-  color: var(--first-text-color);
-  background-color: var(--selectors-background-colour);
-  border: none;
-  cursor: pointer;
-  width: 93px;
-  height: 38px;
-}
 .selectors ul {
   list-style: none;
   text-align: center;
@@ -419,10 +355,14 @@ body {
 }
 
 .prod-title {
-  font-size: 18;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.3px;
   color: var(--first-text-color);
 }
 .prod-description {
-  font-size: 16;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.3px;
 }
