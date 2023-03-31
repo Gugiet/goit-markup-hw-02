@@ -119,7 +119,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.3px;
-  font-style: normal;
   text-align: right;
   display: inline;
   text-align: right;
@@ -273,8 +272,6 @@ body {
 
 .lower-line {
   background-color: var(--second-background-color);
-  display: inline;
-  position: absolute;
 }
 
 .logo-down {
@@ -296,6 +293,7 @@ body {
 
 .adress-down-first {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--third-text-color);
 }
@@ -304,7 +302,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.3px;
-  font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
